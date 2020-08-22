@@ -83,8 +83,9 @@ nav>ul>a:hover{
     margin: 0.5em 0.5em 0.5em 0.5em;
 border-radius: 5px;
     text-align: center;
-    transition: 0.5s;
+  
     padding-top: 10px;
+transition: 0.5s;
 }
 .slot img{
     width: 90%;
@@ -95,6 +96,7 @@ border-radius: 5px;
     border-bottom: 2px white solid;
     background-color: rgba(20, 20, 20, 0.5);
 }
+
 
 .pn{
     display: flex;
@@ -142,7 +144,9 @@ height: 35%;
     font-size: 20px;
     font-family: Tahoma;
 }
-
+.about li{
+    text-align: left;
+}
 .link{
     text-decoration: none;
     font-size: 20px;
